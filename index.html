@@ -100,7 +100,6 @@
           success: function (users) {
             var template = _.template($('#user-list-template').html(), {users: users.models});
             that.$el.html(template);
-            bar ={};
           }
         })
       }
